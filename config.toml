@@ -1,0 +1,29 @@
+baseURL = '/'
+author = 'AsylRin'
+languageCode = 'zh-cn'
+
+title = 'ASYl'
+theme = 'hugo-paper'
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "My headline"
+    description = "NOthing TUrE"
+    github = "https://github.com/RinAsyl"
+    twitter = "https://twitter.com/asaya_rin"
+    email = "arlenal_cn@outlook.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2016"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[Permalinks]
+    post = "/:filename/"
